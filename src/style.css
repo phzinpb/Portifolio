@@ -1,0 +1,46 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: #F5DABB;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+i{
+    font-weight: bold;
+    font-style: italic;
+}
+i:hover{
+    text-decoration: underline;
+}
+img{
+    border: 5px solid #A08A71;
+    height: 320px;
+}
+img:hover{
+    border: 5px solid #F5C8BA;
+}
+div.card{
+    background-color: #754C3F;
+    height: 475px;
+    width: 575px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+div.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body > p{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: overline;
+    padding-top: 20px;
+}
